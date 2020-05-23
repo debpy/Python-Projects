@@ -23,7 +23,6 @@ def jsonDefault(object):
     return object.__dict__
 '''
 def get_cpu_utilization(args):
-#    session = Session(aws_access_key_id='AKIAIUIJFOR6DP7ZH6LQ',aws_secret_access_key='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',
 #    region_name='ap-south-1')
 #    cw = session.client('cloudwatch')
 #    print(args)

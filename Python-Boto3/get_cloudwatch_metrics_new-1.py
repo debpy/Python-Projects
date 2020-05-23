@@ -16,8 +16,6 @@ def myconverter(o):
         return o.__str__()
 
 def get_cloudwatch_metrics(args):
-#    session = Session(aws_access_key_id='AKIAIUIJFOR6DP7ZH6LQ',aws_secret_access_key='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',
-#    region_name='ap-south-1')
 #    cw = session.client('cloudwatch')
     conn=connect.connect()
     now = datetime.utcnow()
