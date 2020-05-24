@@ -1,7 +1,7 @@
 from libs.openexchange import OpenExchangeClient
 import time
 
-#Implementing a currency exchange library
+#Implementing a currency exchange library using Python
 '''
 import requests
 ENDPOINT="https://openexchangerates.org/api/latest.json"
